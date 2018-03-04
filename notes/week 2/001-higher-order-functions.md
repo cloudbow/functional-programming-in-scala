@@ -7,7 +7,7 @@ Functions that take other functions as parameters or that return functions as re
 Let's suppose we want to take the sum of all the integers between a and b:
 
 ```scala
-def sumInts(a: Int, b, Int): Int =
+def sumInts(a: Int, b: Int): Int =
 	if (a > b) 0 else a + sumInts(a + 1, b)
 ```
 
